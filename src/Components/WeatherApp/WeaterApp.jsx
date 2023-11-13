@@ -20,7 +20,7 @@ const WeaterApp = () => {
   const search = async () =>{
     const element = document.getElementsByClassName("cityInput")
     if(element[0].value===""){
-      seterror("Please enter a city name");
+      setError("Please enter a city name");
       return;
     }
     let url = `https://api.openweathermap.org/data/2.5/weather?q=${element[0].value}&units=Metric&appid=${api_key}`
