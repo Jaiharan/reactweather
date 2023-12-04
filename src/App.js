@@ -1,5 +1,6 @@
 import './App.css';
 import WeatherApp from './Components/WeatherApp/WeaterApp';
+import './index.css'
 
 
 

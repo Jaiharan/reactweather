@@ -84,7 +84,7 @@ const WeaterApp = () => {
   return (
     <div className='container' style={{background: bgcolor}}>
       <div className="top-bar">
-        <input type="text" className="cityInput" placeholder='Search'/>
+        <input type="text" className="cityInput" placeholder='Search here... '/>
         <div className="search-icon" onClick={() => {search()}}>
           <img src={search_icon} alt="" />
         </div>
