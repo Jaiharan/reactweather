@@ -2,11 +2,34 @@
   width: 507px;
   height: 640px;
   margin: auto;
-  margin-top: 55px;
   border-radius: 12px;
-  background :radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
+}
+
+.header {
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    width: 390px;
+    margin-top: 65px;
+  }
+  .header {
+    margin-top: 40px;
+  }
+  h1 {
+    font-size: 30px;
+    font-weight: 600;
+  }
 }
 
 
